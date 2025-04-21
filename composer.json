@@ -1,0 +1,52 @@
+{
+    "name": "codetechnl/lightspeed-headless-base-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Donny van Grondelle",
+            "email": "donny@codetech.nl"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\HeadlessBase\\": "app/",
+            "Modules\\HeadlessBase\\Database\\Factories\\": "database/factories/",
+            "Modules\\HeadlessBase\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\HeadlessBase\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "codetechnl/webshopsetup": "*",
+        "filament/spatie-laravel-settings-plugin": "3.x-dev",
+        "althinect/filament-spatie-roles-permissions": "2.x-dev",
+        "filament/filament": "3.x-dev",
+        "laravel/framework": "12.x-dev",
+        "nwidart/laravel-modules": "^12.0@dev"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/CodeTechNL/lightspeed-storefront"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "wikimedia/composer-merge-plugin": true
+        }
+    },
+    "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.15@dev"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "HeadlessBase",
+    "alias": "headlessbase",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\HeadlessBase\\Providers\\HeadlessBaseServiceProvider"
+    ],
+    "files": []
+}

@@ -27,12 +27,10 @@
         }
     },
     "require": {
-        "codetechnl/webshopsetup": "*",
-        "filament/spatie-laravel-settings-plugin": "3.x-dev",
-        "althinect/filament-spatie-roles-permissions": "2.x-dev",
-        "filament/filament": "3.x-dev",
-        "laravel/framework": "12.x-dev",
-        "nwidart/laravel-modules": "^12.0@dev"
+        "codetechnl/webshopsetup": "dev-main",
+        "filament/filament": "^3.3",
+        "filament/spatie-laravel-settings-plugin": "^3.2",
+        "althinect/filament-spatie-roles-permissions": "^2.3"
     },
     "repositories": [
         {
@@ -40,7 +38,6 @@
             "url": "https://github.com/CodeTechNL/lightspeed-storefront"
         }
     ],
-    "minimum-stability": "dev",
     "config": {
         "allow-plugins": {
             "wikimedia/composer-merge-plugin": true
